@@ -2,6 +2,7 @@ module RspecApiDocumentation
   module OpenApi
     class Info < Node
       add_setting :title, :default => 'OpenAPI Specification', :required => true
+      add_setting :"x-logo", :default => Logo.new, :schema => Logo
       add_setting :description, :default => 'This is a sample server Petstore server.'
       add_setting :termsOfService, :default => 'http://open-api.io/terms/'
       add_setting :contact, :default => Contact.new, :schema => Contact

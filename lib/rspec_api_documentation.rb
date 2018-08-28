@@ -55,6 +55,7 @@ module RspecApiDocumentation
     autoload :Node
     autoload :Root
     autoload :Info
+    autoload :Logo
     autoload :Contact
     autoload :License
     autoload :Paths
